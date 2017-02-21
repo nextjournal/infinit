@@ -1,4 +1,4 @@
-FROM mefyl/infinit-alpine:0.7.2
+FROM mefyl/infinit-alpine:0.7.3
 MAINTAINER Joshua Sierles <joshua@nextjournal.com>
 
 ADD . /build
