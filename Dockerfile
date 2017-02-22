@@ -1,8 +1,5 @@
-FROM mefyl/infinit-alpine:0.7.3
+FROM mefyl/infinit-alpine:0.7.3-2-g25e1b91
 MAINTAINER Joshua Sierles <joshua@nextjournal.com>
-
-RUN apk --update add libstdc++ \
-  && rm -fr /var/cache/apk/*
 
 ADD . /build
 
